@@ -1,0 +1,803 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.media {
+  margin: 0 auto;
+  max-width: 1088px;
+  padding: 100px 0;
+}
+
+.media h2 {
+  color: #221e1f;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: Noto Sans TC;
+  text-align: center;
+  line-height: 46px;
+  margin-bottom: 48px;
+}
+
+.media-list {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.media-list h3 {
+  color: #221e1f;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.media-list p {
+  color: #747474;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.media-list li {
+  margin: 0 20px;
+  text-align: center;
+  width: 244px;
+}
+
+.media-list img {
+  max-width: 90px;
+  height: 90px;
+  margin-bottom: 24px;
+}
+
+.buyer {
+  max-width: 1088px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  
+}
+
+.buyer h2 {
+  color: black;
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Noto Sans TC;
+  margin-bottom: 16px;
+}
+
+.buyer p {
+  color: black;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  font-family: Noto Sans TC;
+  margin-bottom: 48px;
+}
+
+.customer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.customer li {
+  width: 260px;
+  box-shadow: 0px 2px 10px #00000014;
+  background: #FFFFFF ;
+  border-radius: 12px;
+}
+
+.customer img{
+  border-radius:12px 12px 0px 0px;  
+}
+
+.customer h3 {
+  color: #56c4c5;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.customer p {
+  color: #221e1f;
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.service{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1088px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 507px;
+}
+
+.item li{
+    width: 230px;
+    padding: 32px 32px 48px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 10px #00000014;
+}
+
+.item img{
+    width: 86px;
+    height: 86px;
+    box-shadow: 0px 2px 10px #00000014;
+    padding: 17px;
+    border-radius: 50%;
+    margin-bottom: 24px;
+}
+
+.item h3{
+    font-size: 18px;
+    color: #221E1F;
+    text-align: left;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+.item p{
+    font-size: 16px;
+    text-align: left;
+    color: black;
+    line-height: 24px;
+}
+
+.convert{
+    margin-right: 47px;
+    margin-bottom: 28px;
+}
+
+
+.robot{
+    margin-bottom: 28px;
+}
+
+.message{
+    margin-right: 47px;
+}
+
+
+.description h2{
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
+    line-height: 46px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.description p{
+    font-size: 18px;
+    text-align: left;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.description a{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 12px 32px 12px 32px;
+    background-color: #56C4C5;
+    border: 1px solid #56C4C5;
+    border-radius: 27px    
+}
+
+.feedback{
+    max-width: 1088px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    
+}
+
+.feedback h2{
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 46px;
+    color: black;
+    text-align: center;
+    margin-bottom: 104px;
+}
+
+.comment{   
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.comment li{
+    position: relative;
+    border-radius: 12px;
+    box-shadow: 0px 2px 10px #00000014;
+    background: #FFFFFF;
+    padding: 48px 32px 24px 32px;
+}
+
+.comment .user{
+    position: absolute;
+    left: 32px;
+    top: -56px;
+    box-shadow: 0px 2px 10px #00000014;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.comment .function{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #DDDDDD;
+    margin-bottom: 24px;
+}
+
+.comment h3{
+    font-weight: bold;
+    line-height: 24px;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.comment div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment div p{
+    font-size: 16px;
+    text-align: left;
+}
+
+.footer h2{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.footer a{
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 12px 32px 12px 32px;
+    background-color: #56C4C5;
+    border: 1px solid #56C4C5;
+    border-radius: 27px;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.footer p{
+    text-align: center;
+    color: #221E1F;
+}
+
+.footer{
+    height: 503px;
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/home_footer.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner{
+    max-width: 1088px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 117px;
+}
+
+.banner h2{
+    font-size: 18px;
+    font-weight: bold;
+    color: #56C4C5;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.banner h3{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 70px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.banner h4{
+    font-size: 20px;
+    text-align: left;
+}
+
+.banner img{
+    max-width: 532px;
+    height: 534px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1088px;
+    margin: 0 auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-bottom: 30px;
+    
+}
+
+.header h1 a{
+    display: block;
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 218px;
+    height: 40px;
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.header .price{
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 8px 32px;
+    background-color: #FF5D50;
+    border-radius: 22px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+
+
+.body{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home.svg), url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ball02.svg);
+    background-position: right top, 110% 50%;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.wrap {
+    position: relative;
+    margin: 0 auto ;
+}
+
+.ball1 {
+    position: absolute;
+    top: 500px;
+    left: -220px;
+    z-index: -999;
+}
+
+
+.ball3 {
+    position: absolute;
+    z-index: -999;
+    bottom: -2050px;
+    left: 120px;
+}
+
+@media(max-width:992px) {
+    .wrap{
+        padding: 0px 25px;
+    }
+
+    .banner img{
+        max-width: 480px;
+        height: 500px;
+    }
+
+    .item li{
+        width: 45%;
+    }
+
+    .item .convert{
+        margin-right: 25px;
+        margin-bottom: 25px;
+    }
+
+    .item .message{
+        margin-right: 25px;
+    }
+
+    .item .robot{
+        margin-bottom: 25px;
+    }
+
+    .description {
+        padding-left: 20px;
+    }
+
+}
+
+@media(max-width:767px) {
+    .body{
+
+        background-image:
+            url('https:https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home.svg//raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f001…/chatTalker_images/bg_home.svg'),
+            url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ball03.svgttps://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f001…/chatTalker_images/ball02.svg');
+        background-position: 35% 10%, 110% 56%;
+        background-size: 85%, 200px;
+
+    }
+
+    .wrap{
+        padding-top: 120px;
+    }
+
+    .ball1{
+        width: 300px;
+        height: 300px;
+        top: 850px;
+        left: -200px;
+    }
+
+    .header{
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 199;
+        border-bottom: 2px solid #FFD153;
+        padding: 24px 20px;
+        background-color: white;
+    }
+
+    .banner{
+        flex-direction: column;
+    }
+
+    .title{
+        width: 100%;
+    }
+
+    .customer{
+        flex-wrap: wrap;
+    }
+
+    .customer li{
+        width: 48%;
+        margin-bottom: 30px;
+    }
+
+    .service{
+        flex-direction: column;
+
+    }
+
+    .service .item{
+        width: 80%;
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+    }
+
+    .service .item .convert{
+        margin-bottom: 40px;
+    }
+
+    .service .item .robot{
+        margin-bottom: 40px;
+        background-color: white;
+    }
+
+    .description{
+        width: 100%;
+        align-self: flex-start;
+        margin-left: 70px;
+    }
+
+    .comment .star{
+        display: block;
+    }
+
+
+    .footer {
+        background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/footer_sm.svg');
+        background-size: 100%;
+    }
+}
+
+@media(max-width:576px) {
+    .body{
+        background-position: 35% 5%, 110% 50%;
+    }
+
+    .ball1{
+        width: 150px;
+        height: 150px;
+        top: 800px;
+        left: -80px;
+    }
+
+    .banner{
+        margin-bottom: 98px;
+    }
+
+    .banner img {
+        max-width: 400px;
+        height: 400px;
+        margin-top: 50px;
+    }
+
+    .title h3{
+        font-size: 32px;
+    }
+
+    .title h4{
+        font-size: 16px;
+    }
+
+    .media-list{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .media-list li{
+        width: 70%;
+        margin-bottom: 24px;
+    }
+
+    .buyer p{
+        width: 80%;
+        margin: 0 auto 48px;
+        line-height: 1.5;
+    }
+
+    .customer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .customer li{
+        width: 70%;
+    }
+
+    .service .item{
+        width: 100%;
+    }
+
+    .service .item li {
+        width: 70%;
+        margin: 0 0 20px;
+    }
+
+    .description{
+        margin-left: 0;
+    }
+
+    .feedback .comment{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feedback .comment li{
+        width: 70%;
+        margin-bottom: 80px;
+    }
+
+
+
+    .footer h2{
+        font-size: 24px;
+    }
+
+    .footer p {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:380px) {
+    .body{
+        background-position: 35% 6%, 110% 49%;
+        background-size: 100%, 200px;
+    }
+
+    .wrap {
+        padding-top: 160px;
+    }
+
+    .ball1{
+        display: none;
+    }
+
+    .header{
+        flex-direction: column;
+        padding-bottom: 15px;
+    }
+
+    .header h1 a{
+        margin-bottom: 10px;
+    }
+
+    .banner img{
+        max-width: 304px;
+        height: 304px;
+        margin-top: 50px;
+    }
+
+    .media-list li{
+        width: 90%;
+    }
+
+    .buyer h2{
+        font-size: 28px;
+    }
+
+    .buyer p{
+        width: 100%;
+    }
+
+    .customer li{
+        width: 90%;
+    }
+
+    .service .item li{
+        width: 90%;
+        margin: 0 0 20px;
+    }
+
+    .comment li{
+        width: 90%;
+        margin-bottom: 80px;
+    }
+}
