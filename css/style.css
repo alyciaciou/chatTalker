@@ -426,6 +426,11 @@ img {
     margin: 0 auto;
 }
 
+.footer a:hover{
+    background-color: #FF5D50;
+    font-weight: bold;
+}
+
 .footer p{
     text-align: center;
     color: #221E1F;
