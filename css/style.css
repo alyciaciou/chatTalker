@@ -441,9 +441,9 @@ img {
 .footer{
     height: 503px;
     background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/home_footer.svg);
-    background-repeat-y:no-repeat ;
+    background-repeat: no-repeat;
     background-position: top center;
-    padding-top: 260px;
+    padding-top: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -821,5 +821,6 @@ img {
 
     .footer{
         background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/footer_sm.svg);
+        background-size: contain;
     }
 }
