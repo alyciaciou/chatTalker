@@ -441,6 +441,7 @@ img {
 .footer{
     height: 503px;
     background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/home_footer.svg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
     padding-top: 300px;
